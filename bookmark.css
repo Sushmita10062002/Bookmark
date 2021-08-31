@@ -1,0 +1,96 @@
+:root {
+	--backcolor: #C8C8C8;
+	--submitcolor: rgb(255,120,117);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background-image: url(https://unsplash.com/photos/p-oOhggMV-4)
+}
+h1 {
+	margin: 1em;
+	text-align: center;
+}
+.form {
+	max-width: 790px;
+	background-color: #C8C8C8;
+	margin: 2em;
+	padding: 1.5em;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form > h2 {
+    margin: 0.5em;
+}
+.form p{
+   margin: 0.2em;
+   font-weight: bolder;
+}
+.website-input, .url-input {
+	width: 100%;
+	margin: 0.5em;
+	padding: 0.4em;
+	margin-top: 0;
+	border-radius: 5px;
+	border: 1px solid #C8C8C8;
+	outline: none;
+}
+.submit {
+	font-size: 1rem;
+	padding: 0.5em;
+	background-color: rgba(0,0,255,0.8);
+	color: white;
+	border: none;
+	outline: none;
+}
+.website-list {
+	max-width: 790px;
+    margin: 2em;
+	padding: 1.5em;
+	padding-top: 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	
+}
+.list {
+	background-color: #C8C8C8;
+	border-radius: 5px;
+	margin-bottom: 0.5em;
+	padding: 1em;
+	display: flex;
+	
+	align-items: center;
+
+	
+}
+.vis-web {
+	text-decoration: none;
+	position: absolute;
+	right: 150px;
+	color: blue;
+	left: ;
+	font-size: 1.1rem;
+	font-weight: bolder;
+}
+.delete {
+	text-decoration: none;
+	position: absolute;
+	right: 50px;
+	color: red;
+	font-size: 1.1rem;
+	font-weight: bolder;
+}
+@media(min-width: 540px){
+	.container{
+		width: 700px;
+		margin: auto;
+	}
+}
